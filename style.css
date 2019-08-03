@@ -57,7 +57,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
 div.gallery {
 /*  border: 1px solid #ccc; */
- 
+  color: white;
 }
 
 div.gallery:hover {
@@ -73,9 +73,7 @@ div.desc {
   padding: 15px;
   text-align: center;
    color: white;
-  background-color: black;
-  width: auto;
-  height: auto;
+ 
 }
  
 
@@ -103,3 +101,4 @@ div.desc {
   display: table;
   clear: both;
 }
+footer{ color: white;}
