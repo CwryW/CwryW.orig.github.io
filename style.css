@@ -58,6 +58,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
 div.gallery {
 /*  border: 1px solid #ccc; */
   color: white;
+  font-size: 20px;
 }
 
 div.gallery:hover {
