@@ -101,4 +101,4 @@ div.desc {
   display: table;
   clear: both;
 }
-footer{ color: white;}
+footer, #contacts{ font-size: 30px; color: white;}
