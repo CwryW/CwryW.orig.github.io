@@ -74,6 +74,8 @@ div.desc {
   text-align: center;
    color: white;
   background-color: black;
+  width: auto;
+  height: auto;
 }
  
 
