@@ -17,10 +17,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 
-<nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li>
-      <a href="#welcome-section">About</a>
+
+<ul class="topnav">
+  <li><a class="active" href="#welcome-section">Home</a>
     </li>
     <li>
       <a href="#projects">Works</a>
@@ -29,27 +28,46 @@
       <a href="#contact">Contact</a>
     </li>
   </ul>
-</nav>
+ 
 
+  
+ 
+  
 <section id="welcome-section" class="welcome-section">
   <h1>Welcome To My Personal Portfolio </h1>
   
 </section>
 
 <section id="projects" class="projects-section">
-   <a href="https://codepen.io/collection/nwJzzj/"   class="project-tile" target="_blank">
-  <button id="projects-text">FreeCodeCamp Codepen.io Projects</button></a>
-     <a href="#"   class="project-tile" target="_blank">
-  <button id="projects-text">FreeCodeCamp Glitch.com Projects</button></a>
-   <a href="#" target="_blank">
-      <button id="projects-text"> Codecademy Badges</button></a>
-      <a href="#" target="_blank">  <button id="resume-text">Resume</button>  </a> 
-       <a href="#" target="_blank">  <button id="resume-text">Github</button>  </a> 
-   <a href="#" target="_blank">
-      <button id="projects-text">FreeCodeCamp Full Stack Certificate</button></a>
-      <a href="#" target="_blank">  <button id="resume-text">Autodesk Certificates</button>  </a> 
-  
-</section>
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+   
 
 <section id="contact" class="contact-section">
 
@@ -71,11 +89,13 @@
 </section>
 </body>
 
-<footer>
- 
-    &copy; 2019 CoryW
- 
-</footer>
- 
-</html>
 
+<div class="clearfix"></div>
+
+<footer>
+   
+  <p>
+    &copy; 2019 CoryW
+  </p>
+</footer>
+</html>
