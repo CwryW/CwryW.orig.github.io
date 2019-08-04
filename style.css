@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
 }
@@ -40,8 +38,7 @@ ul.topnav li a:hover:not(.active) {background-color: grey;}
 ul.topnav li a.active {background-color: #4CAF50;}
 
 
-@media only screen and (max-width: 600px) {
-  /* For mobile phones:  [class*="col-"] {  }*/ 
+@media only screen and (max-width: 600px) { 
     width: 100%;
 }
 
