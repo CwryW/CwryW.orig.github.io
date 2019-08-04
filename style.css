@@ -44,6 +44,15 @@ ul.topnav li a.active {background-color: #4CAF50;}
     width: 100%;
 }
 
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
 
 
 div.gallery {
@@ -63,10 +72,11 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-   color: white;
- 
 }
- 
+
+* {
+  box-sizing: border-box;
+}
 
 .responsive {
   padding: 0 6px;
@@ -92,4 +102,3 @@ div.desc {
   display: table;
   clear: both;
 }
-/* footer, #contacts{ font-size: 30px; color: white;} */
