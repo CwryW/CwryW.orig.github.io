@@ -35,11 +35,15 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-.active, .btn:hover {
+.active{
   background-color: green;
   color: white;
 }
- 
+ .btn:hover {
+  background-color: green;
+  color: white;
+}
+  
 
 
 .welcome-section {
