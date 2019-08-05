@@ -37,7 +37,7 @@ ul.topnav li a {
 
 .active, .btn:hover {
   background-color: green;
-  
+  color: white;
 }
  
 
