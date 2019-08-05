@@ -35,12 +35,9 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-.active{
+.active, .btn:hover {
   background-color: green;
- 
-} 
-.btn:hover {
-  background-color: yellow; 
+  color: white;
 }
  
 
