@@ -97,7 +97,7 @@ div.desc {
   clear: both;
 }
 
-footer, .contact{
+footer, .fas, .fab{
   color:blue;
   font-size: 20px;
 }
