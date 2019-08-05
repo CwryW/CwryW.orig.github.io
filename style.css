@@ -96,3 +96,8 @@ div.desc {
   display: table;
   clear: both;
 }
+
+footer{
+  color:white;
+  font-size: 30px;
+}
