@@ -1,3 +1,4 @@
+ 
 var myNav = document.getElementById("mynav");
 var btn = myNav.getElementsByClassName("btn");
 for (var i = 0; i < btn.length; i++) {
@@ -8,4 +9,4 @@ for (var i = 0; i < btn.length; i++) {
   });
 }
 
-
+ 
