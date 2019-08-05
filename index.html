@@ -3,31 +3,11 @@
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <meta name="description" content="CwryW Portfolio">
   <meta name="google-site-verification" content="g7JYrHRszG4QkQHIfJsKZl6K1p84rL7ePbB7X6jIL1o" />
   <meta name="keywords" content="Cwry,Programming,HTML,CSS,Portfolio">
   <title>CwryW's Portfolio</title>
- 
-
-$(document).ready(function(){
-  $("button").click(function(){
-    $("h1").addClass("blue");
-  })
-  });
-
-</script>
- <style>
-.important {
-font-weight: bold;
-  font-size: xx-large;
-}
-
-.blue {
-  color: blue;
-}
-</style>
 </head>  
  
  <body>
@@ -47,31 +27,25 @@ font-weight: bold;
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:300">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-   
+
+<ul class="topnav">
+  <li><a class="active" href="#welcome-section">Home</a>
+    </li>
+    <li>
+      <a href="#projects">Works</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+ 
 
   
-<ul class="topnav">
-  <div id="mynav">
  
-<li>  <button class="btn"><a href="#welcome-section">Home</a></button></li>
- <li>   <button class="btn"><a href="#projects">Works</a></button></li>
- 
- <li>    <button class="btn"><a href="#contact">Contacts</a></button></li>
-</div> 
-  </ul>
-
   
 <section id="welcome-section" class="welcome-section">
   <h1>Welcome To My Personal Portfolio </h1>
-  <h1>Heading 1</h1>
-<h2>Heading 2</h2>
-
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-
-<div>is some important text!</div><br>
-
-<button>Add classes to elements</button>  
+  
 </section>
 
 <section id="projects" class="projects-section">
@@ -187,5 +161,3 @@ font-weight: bold;
   </p>
 </footer>
 </html>
-
- 
