@@ -1,4 +1,5 @@
 
+
 * {
   box-sizing: border-box;
 }
@@ -13,7 +14,11 @@ margin: 0;
    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
- 
+#projects{
+display: flex;  
+flex-wrap: wrap;
+ /*   justify-content: space-around; */
+} 
 
  .topnav {
   list-style-type: none;
@@ -28,7 +33,7 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color:black;
+  color:white;
   font-weight: bold;
   text-align: center;
   padding: 14px 16px;
@@ -41,7 +46,6 @@ ul.topnav li a {
 }
  .btn:hover {
   background-color: green;
-  color: white;
 }
   
 
